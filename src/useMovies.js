@@ -19,7 +19,7 @@ export function useMovies(query) {
           setError("");
 
           const res = await fetch(
-            `http://www.omdbapi.com/?apikey=${KEY}&s=${query}`,
+            `http://www.omdbapi.com/?apikey=f17e9f58&s=${query}`,
             { signal: controller.signal }
           );
 
